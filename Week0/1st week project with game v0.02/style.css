@@ -1,0 +1,52 @@
+body {
+  
+  background-color: #eeeeee;
+}
+div{
+  position: relative;
+}
+h1{
+  position: absolute;
+  top: 0;  
+  font-family:Impact, algerian, georgia;
+  text-indent: 350px;
+}
+
+h3 {
+  position: absolute;
+  bottom: 0; 
+  font-family:Impact, algerian, georgia;
+  text-indent: 500px;
+  color: white;
+  
+}
+h1 + p {
+  position: absolute;
+  top: 0;
+}
+h1, h2 {
+  text-align: center;
+}
+h4{ text-align: center;}
+p {
+  text-align: center;
+}
+
+button {
+  padding: 10px 41px;
+
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer{
+  color:red;
+}
+ol {
+   padding-left: 100px;
+   margin-top: 3em;
+   margin-bottom: em;
+ 
+}
