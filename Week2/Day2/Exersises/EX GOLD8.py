@@ -1,0 +1,5 @@
+numbers_input = input("Enter numbers and separate it with coma: ")
+numbers_list = list(numbers_input.split(","))
+numbers_tuple = tuple(numbers_input.split(","))
+print(numbers_list)
+print(numbers_tuple)
