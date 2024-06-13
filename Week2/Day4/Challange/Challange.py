@@ -1,2 +1,11 @@
-matrix_string = "7iiTsxh%?i#sM$a#t%^r!"
+matrix_string =     """\
+    7ii
+    Tsx
+    h%?
+    i #
+    sM
+    $a
+    #t%
+    ^r!"""
+
 

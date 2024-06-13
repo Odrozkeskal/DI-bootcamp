@@ -32,6 +32,8 @@ def star_wars_quiz(data):
     for i in data:
         question = i["question"]
         answer = i["answer"]
+        # print(question)
+        # print(answer)
         user_input_answer = input(question + " ")
         if user_input_answer.lower() == answer.lower():
             print("Right answer")
