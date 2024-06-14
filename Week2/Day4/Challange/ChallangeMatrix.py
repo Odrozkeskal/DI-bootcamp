@@ -21,11 +21,15 @@ for e in matrix_list:
     h = e[::3] # 3rd column
     row3.append(h)
     
+import time
 matrix = row1 + row2 + row3
 matrix = str(matrix)
+
 for i in matrix:
     if i.isalpha() == True:
         print(i, end='')
+        time.sleep(0.5)
+        
   
         
 
