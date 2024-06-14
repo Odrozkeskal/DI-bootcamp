@@ -1,7 +1,7 @@
-print("Enter any sentence:")
+print("Enter any sentence", end = ": ")
 
 sentence_input = input()
-print("Enter character you need: ")
+print("Enter character you need", end =": ")
 character_input = input()
 def char_counter(sentence_input, character_input):
     counter = 0
