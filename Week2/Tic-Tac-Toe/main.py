@@ -27,7 +27,7 @@ for i in picture:
       time.sleep(0.15)
     else:
       print(' ', end='')
-  print("")
+  print("/")
 
 
 

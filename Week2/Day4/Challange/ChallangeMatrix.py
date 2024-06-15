@@ -1,4 +1,4 @@
-matrix_string =     """
+matrix_string = """
     7ii
     Tsx
     h%?
@@ -6,8 +6,11 @@ matrix_string =     """
     sM
     $a
     #t%
-    ^r!"""
+    ^r!1"""
+# print(matrix_string)
+
 matrix_list = matrix_string.split("\n")
+# print(matrix_list)
 row1 = []
 row2 = []
 row3 = []
@@ -20,16 +23,19 @@ for e in matrix_list:
     row2.append(r)
     h = e[::3] # 3rd column
     row3.append(h)
-    
-import time
+# print(row1)
+# print(row2)
+# print(row3)
+
 matrix = row1 + row2 + row3
 matrix = str(matrix)
-
+# print(matrix)
 for i in matrix:
     if i.isalpha() == True:
         print(i, end='')
-        time.sleep(0.5)
-        
+      
+
+
   
         
 

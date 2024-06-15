@@ -47,14 +47,15 @@ print(get_random_temp_seasons(season="autumn"))
 user_input_month_number = input("Enter a month number: ")
 month = int(user_input_month_number)
 def month_into_season(*, month:int):
-    if month == 12 or month == 1 or month == 2:
-        season = "winter"
-    elif month in range(3,6):
+    
+    if month in range(3,6):
         season = "spring"
     elif month in range(6,9):
         season = "summer"
     elif month in range(9,12):
         season = "autumn"
+    elif month in range(12,0,-1): # = range(0,13)
+            season = "winter"
     elif month == 0:
         season = "incorrect value"
     return season
