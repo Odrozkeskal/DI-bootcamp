@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e350193-bfa1-47a4-b518-b7a30d7b10fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/.idea/Exersices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/EX1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/EX2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/EX3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/EX4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day2/Challange/PT1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day2/Challange/PT1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day2/Challange/PT2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day2/Challange/PT2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day5 challange/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day5 challange/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day5 challange/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day5 challange/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day5 challange/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day5 challange/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challange.py" beforeDir="false" afterPath="$PROJECT_DIR$/challange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/EX4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week3/Day1/Exersices/EX4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

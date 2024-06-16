@@ -31,13 +31,12 @@ class Zoo:
             animal_dictionary[key] = value
             
          
-        
         for i in self.animals:
             first_letter = i[0]
             
             if first_letter != current_letter:
                 if current_letter is not None:
-                    animal_dictionary[key] = same_letter_animals
+                    animal_dictionary[value] = same_letter_animals
                     
             current_letter = first_letter
             same_letter_animals = [i]
@@ -60,16 +59,16 @@ class Zoo:
             
 
 if __name__ == "__main__":
-    this_zoo = Zoo("this zoo")
-    this_zoo.add_animal("Duck")
-    this_zoo.add_animal("Ant")
-    this_zoo.add_animal("Alpaca")
-    this_zoo.add_animal("Worm")
-    this_zoo.add_animal("Wombat")
-    this_zoo.get_animals()
-    this_zoo.sell_animal("Ant")
+    zoo_name = Zoo("zoo_name")
+    zoo_name.add_animal("Duck")
+    zoo_name.add_animal("Ant")
+    zoo_name.add_animal("Alpaca")
+    zoo_name.add_animal("Worm")
+    zoo_name.add_animal("Wombat")
+    zoo_name.get_animals()
+    zoo_name.sell_animal("Ant")
 
-    this_zoo.get_animals()
+    zoo_name.get_animals()
     
-    this_zoo.sort_animals()
+    zoo_name.sort_animals()
 
