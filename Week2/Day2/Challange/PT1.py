@@ -10,3 +10,12 @@ while len(result_list) != int(length_input):
     result_list.append(result_unit)
 
 print(result_list)
+
+###################################################################################
+
+#Alternative way
+
+number = int(input("Enter number: "))
+length = int(input("Enter length: "))
+result_list = [number * (i + 1) for i in range(length)]
+print(result_list)
