@@ -1,20 +1,41 @@
-class User():
-    
-    def sign_in(self):
-        print('logged in')
-    
-    def attack(self):
-        print('do nothing')
+class Pets():
+    def __init__(self, animals):
+        self.animals = animals
 
+    def walk(self):
+        for animal in self.animals:
+            print(animal.walk())
 
-class Wizard(User):
-    def __init__(self, name, power):
+class Cat():
+    is_lazy = True
+
+    def __init__(self, name, age):
         self.name = name
-        self.power = power
+        self.age = age
+
+    def walk(self):
+        return f'{self.name} is just walking around'
+
+class Bengal(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
+
+class Chartreux(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
     
-    def attack(self):
-        User.attack(self)
-        print(f"attacking with power of {self.power}")
-        
-wizard1 = Wizard("Gale", 45)
-wizard1.attack()
+class Siamese(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
+    
+
+
+bengal_cat = Bengal('Bengal Cat', 3)
+chartreux_cat = Chartreux('Chartreux Cat', 5)
+siamese_cat = Siamese('Siamese Cat', 2)
+
+all_cats = [bengal_cat, chartreux_cat, siamese_cat]
+
+sara_pets = Pets(all_cats)
+
+sara_pets.walk()
