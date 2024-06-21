@@ -72,9 +72,9 @@ def draw_sorted_circles(circles):
 
 
 if __name__ == "__main__":
-    circle1 = Circle(radius=50)
-    circle2 = Circle(diameter=100)
-    circle3 = Circle(radius=30)
+    circle1 = Circle(radius=40)
+    circle2 = Circle(diameter=50)
+    circle3 = Circle(radius=80)
     
     circles = [circle1, circle2, circle3]
     
