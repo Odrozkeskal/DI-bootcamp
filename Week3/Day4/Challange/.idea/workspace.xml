@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41ce1013-8117-4d75-97f9-c672f577e53b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Challange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercises/EX1_pt1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercises/EX1_pt2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercises/EX1_pt3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercises/EX2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day3/Challange/Turtle_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day3/Challange/Turtle_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challange.py" beforeDir="false" afterPath="$PROJECT_DIR$/Challange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/EX1_pt1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/EX1_pt1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/EX1_pt3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/EX1_pt3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2iC2Wr6jBV5qGkzJ3692E8vMB86" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Mariy/Desktop/DI-bootcamp/Week3/Day4/Challange"
+    "last_opened_file_path": "C:/Users/Mariy/Desktop/DI-bootcamp/Week3/Day5/Challange"
   }
 }]]></component>
   <component name="RunManager">

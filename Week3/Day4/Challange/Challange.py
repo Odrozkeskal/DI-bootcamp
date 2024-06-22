@@ -25,7 +25,7 @@ class Text:
 
     @classmethod
     def from_file(cls, filename):
-        with open(filename, 'r', encoding='utf-8') as file:
+        with open(filename, mode='r', encoding='utf-8') as file:
             text = file.read()
         return cls(text)
     

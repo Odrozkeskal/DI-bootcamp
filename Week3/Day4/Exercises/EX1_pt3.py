@@ -4,7 +4,7 @@ import random
 def get_words_from_file(file_path):
     words = []
     try:
-        with open(file_path, 'r') as file:
+        with open(file_path, mode='r') as file:
             for line in file:
                 words.extend(line.split())
     except FileNotFoundError:
