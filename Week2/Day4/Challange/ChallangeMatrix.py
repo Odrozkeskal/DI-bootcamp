@@ -23,9 +23,9 @@ for e in matrix_list:
     row2.append(r)
     h = e[::3] # 3rd column
     row3.append(h)
-# print(row1)
-# print(row2)
-# print(row3)
+print(row1)
+print(row2)
+print(row3)
 
 matrix = row1 + row2 + row3
 matrix = str(matrix)
