@@ -1,3 +1,4 @@
+
 def get_user_item(self):
     pass
 
@@ -9,3 +10,4 @@ def get_game_result(self, user_item, computer_item):
 
 def play(self):
     pass
+
