@@ -169,9 +169,10 @@
 //     let phrasePart = result.join(' ')
 //     counter += 1;
 
-//     if(counter ==2){
+//     if(counter ==3){
 //     console.log(phrasePart)
 //     }
+   
     
 //   }
   
@@ -180,3 +181,15 @@
  */
 // EX7
   
+const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
+
+let firstChars = []
+for(let i = 0; i < names.length; i++){
+
+    let firstChar = names[i].charAt(0);
+    firstChars.push(firstChar);
+}
+
+firstChars.sort();
+let societyName = firstChars.join('');
+console.log(societyName);
