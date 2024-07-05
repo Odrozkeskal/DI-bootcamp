@@ -1,70 +1,43 @@
 class Zoo:
-    def __init__(self,zoo_name:str):
+    def __init__(self, zoo_name: str) -> None:
         self.animals = []
-        self.name = zoo_name
-        
-    def add_animal(self, new_animal:str):
+        self.zoo_name = zoo_name
+
+    def add_animal(self, new_animal):
         if new_animal not in self.animals:
-         self.animals.append(new_animal)
-        
-    def get_animals(self):
-        if self.animals:
-            for animal in self.animals:
-                print(animal)
+            self.animals.append(new_animal)
 
-    def sell_animal(self,animal_sold):
-        if animal_sold in self.animals:
-            self.animals.remove(animal_sold)
-            print(f"{animal_sold} has been sold.")
-        
     def sort_animals(self):
-            
-            animal_dictionary = {}
-            current_letter = None
-            same_letter_animals = []
-            self.animals.sort()
-            keys = range(len(self.animals) + 1)
-            
-            for key, value in zip(keys, self.animals):
-                animal_dictionary[key] = value
-            
-            for i in self.animals:
-                first_letter = i[0]
-                
-                if first_letter != current_letter:
-                    if current_letter is not None:
-                        animal_dictionary[value] = same_letter_animals
-                
-                current_letter = first_letter
-                same_letter_animals = [i]
-            
+        sorted_animals = sorted(self.animals)
+        grouped_animals = {}
+        for animal in sorted_animals:
+            first_letter = animal[0]
+            if first_letter not in grouped_animals:
+                grouped_animals[first_letter] = [animal]
             else:
-                same_letter_animals.append(i)
-            
-            if current_letter is not None:
-                animal_dictionary[current_letter] = same_letter_animals
-            
-            print(animal_dictionary)
-    
-     
-        
-            
-           
-        # print(self.animals)
-        # print(animal_dictionary)
+                grouped_animals[first_letter].append(animal)
+
+        sorted_grouped_animals = {}
+        counter = 1
+        for key in sorted(grouped_animals.keys()):
+            sorted_grouped_animals[counter] = grouped_animals[key]
+            counter += 1
+
+        return sorted_grouped_animals
+
+    def get_groups(self):
+        grouped_animals = self.sort_animals()
+        for group, animals in grouped_animals.items():
+            print(group, animals, sep=": ")
             
 
-if __name__ == "__main__":
-    zoo_name = Zoo("zoo_name")
-    zoo_name.add_animal("Duck")
-    zoo_name.add_animal("Ant")
-    zoo_name.add_animal("Alpaca")
-    zoo_name.add_animal("Worm")
-    zoo_name.add_animal("Wombat")
-    zoo_name.get_animals()
-    zoo_name.sell_animal("Ant")
+zoo = Zoo("Zoo")
 
-    zoo_name.get_animals()
-    
-    zoo_name.sort_animals()
+zoo.add_animal("Girafe")
+zoo.add_animal("Lion")
+zoo.add_animal("Hipo")
+zoo.add_animal("Monkey")
+
+zoo.sort_animals()
+zoo.get_groups()
 
