@@ -90,6 +90,20 @@ document.addEventListener("DOMContentLoaded",function(){
           username: 'Drawing is art',
           email: 'mainCraft@yahoo.com,',
           image: 'https://robohash.org/Adolf%20bot%203000'
+        },
+        {
+          id:14,
+          name: 'Ravinator',
+          username: 'GimmemoneY',
+          email: 'workisfor@fools.il',
+          image: 'https://robohash.org/Ravinator'
+        },
+        {
+          id:15,
+          name: 'Atlant',
+          username: 'Strongest',
+          email: 'gym@gmail.com',
+          image: 'https://robohash.org/Atlant'
         }
     ];
         
