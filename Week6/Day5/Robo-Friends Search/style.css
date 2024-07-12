@@ -1,0 +1,14 @@
+body {
+    background-image: url("https://github.com/devtlv/studentsGitHub/blob/master/JS/Week%204/Day5/Mini%20Projects/Mini%20Project%201%20(Robots)/circuit-pattern.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}  
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    src: url('C:\Users\Mariy\Desktop\DI-bootcamp\Week6\Day5\Robo-Friends Search\fonts\SEGA.TTF') format('truetype');
+}
+header{
+    font-family: 'SEGA LOGO FONT', sans-serif;
+    
+}
