@@ -69,6 +69,27 @@ document.addEventListener("DOMContentLoaded",function(){
           username: 'Moriah.Stanton',
           email: 'Rey.Padberg@karina.biz',
           image:'https://robohash.org/slot%20machine'
+        },
+        {
+          id:11,
+          name: 'Astarion 121',
+          username: 'Duke Sasakula',
+          email: 'suck_my_blood@niko.jp',
+          image:'https://robohash.org/Astarion%20121'
+        },
+        {
+          id:12,
+          name: 'Ninja Gay Dan',
+          username: 'Assjutsu',
+          email: 'carefull@niko.jp',
+          image: 'https://robohash.org/Ninja%20Gay%20Dan'
+        },
+        {
+          id:13,
+          name: 'Adolf bot 3000',
+          username: 'Drawing is art',
+          email: 'mainCraft@yahoo.com,',
+          image: 'https://robohash.org/Adolf%20bot%203000'
         }
     ];
         
@@ -89,7 +110,7 @@ document.addEventListener("DOMContentLoaded",function(){
             name.textContent = robot.name;
             
             const username = document.createElement('p');
-            username.textContent = `Username: ${robot.name}`;
+            username.textContent = `Username: ${robot.username}`;
         
             const email = document.createElement('p');
             email.textContent = `Email: ${robot.email}`;

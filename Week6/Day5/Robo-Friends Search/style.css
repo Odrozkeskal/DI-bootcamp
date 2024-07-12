@@ -39,6 +39,7 @@ input {
 
 .robot-card {
     background-color: #b2ccf2;
+    background-image: url("https://github.com/devtlv/studentsGitHub/blob/master/JS/Week%204/Day5/Mini%20Projects/Mini%20Project%201%20(Robots)/card-pattern.png?raw=true");
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -47,12 +48,18 @@ input {
 }
 
 .robot-card img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    border: solid black 1px;
     border-radius: 50%;
+    background-color: rgb(101, 101, 165);
     margin-bottom: 10px;
 }
-p {
+
+.robot-card h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.robot-card p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
