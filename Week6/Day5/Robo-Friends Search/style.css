@@ -2,13 +2,57 @@ body {
     background-image: url("https://github.com/devtlv/studentsGitHub/blob/master/JS/Week%204/Day5/Mini%20Projects/Mini%20Project%201%20(Robots)/circuit-pattern.png?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
-    
-}  
-@font-face {
-    font-family: 'SEGA LOGO FONT';
-    src: url('C:\Users\Mariy\Desktop\DI-bootcamp\Week6\Day5\Robo-Friends Search\fonts\SEGA.TTF') format('truetype');
-}
-header{
     font-family: 'SEGA LOGO FONT', sans-serif;
-    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.robot-card {
+    background-color: #b2ccf2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.robot-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+p {
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
