@@ -1,0 +1,9 @@
+.styled-list {
+    list-style-position: inside; 
+    text-align: left; 
+    display: inline-block;
+  }
+  
+  .styled-list li {
+    margin: 5px 0; 
+  }
