@@ -4,7 +4,7 @@ import CarouselComponent from './CarouselComponent';
 function App() {
   return (
     <div className="App">
-      <h1>My Image Carousel</h1>
+      <h1>Carousel</h1>
       <CarouselComponent />
     </div>
   );
