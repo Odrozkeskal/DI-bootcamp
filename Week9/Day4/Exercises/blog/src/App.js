@@ -80,11 +80,10 @@ import Example3 from './Example3';
 
 //Ex4
 
-//I DIDN'T UNDERSTOOD HOW TO TURN ON CORS ON WEBHOOK SITE, SO I DID IT IN MY SERVER (server.js) So we got json data on console, but not on Webhook site
 
 const App = () => {
   const fetchData = async () => {
-    const url = 'http://localhost:3000/your-webhook-endpoint';
+    const url = 'https://webhook.site/eec3ce84-ceb2-4e4f-99fd-71019cfd6afa';
     const data = {
       key1: 'myusername',
       email: 'mymail@gmail.com',
