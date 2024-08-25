@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .disabled { opacity: 0.5; cursor: not-allowed; }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <button type="submit" id="submitBtn" class="disabled" disabled>Login</button>
+    </form>
+    <script>
+        document.getElementById('loginForm').addEventListener('input', () => {
+            const fields = ['username', 'password'];
+            const allFilled = fields.every(field => document.getElementById(field).value);
+            const submitBtn = document.getElementById('submitBtn');
+            if (allFilled) {
+                submitBtn.disabled = false;
+                submitBtn.classList.remove('disabled');
+            } else {
+                submitBtn.disabled = true;
+                submitBtn.classList.add('disabled');
+            }
+        });
+    </script>
+</body>
+</html>
